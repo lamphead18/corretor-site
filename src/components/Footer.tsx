@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Mail, Phone } from "lucide-react";
+import { Linkedin, Instagram, Mail, Phone } from "lucide-react";
 import remaxbalao from "../assets/remaxbalao.png";
 
 const Footer = () => {
@@ -28,15 +28,15 @@ const Footer = () => {
             <p className="font-medium">Siga nas redes sociais</p>
             <div className="flex gap-4">
               <a
-                href="https://facebook.com"
+                href="https://www.linkedin.com/in/fernando-franco-287743104/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Facebook"
+                aria-label="Linkedin"
               >
-                <Facebook className="hover:text-[#b40027] transition" />
+                <Linkedin className="hover:text-[#b40027] transition" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/fernandojcfranco/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"

@@ -15,6 +15,7 @@ const Header = () => {
             <img
               src={corretorIcon_tratada}
               alt="Corretor de imóveis"
+              loading="lazy"
               className="w-full h-full object-cover"
             />
           </div>
