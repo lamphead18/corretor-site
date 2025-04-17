@@ -1,4 +1,6 @@
 import fotoCorretor from "../assets/corretor2.jpg";
+import casinha from "../assets/casinha.png";
+import images from "../assets/images.png";
 
 const cards = [
   {
@@ -12,7 +14,7 @@ const cards = [
   {
     key: "casa",
     title: "Seu imóvel ideal está aqui",
-    image: "/src/assets/casinha.png",
+    image: casinha,
     alt: "Imagem de casa à venda no Eusébio",
     description:
       "Conheça diversas opções de imóveis cuidadosamente selecionados para combinar com seu estilo de vida. Agende uma visita e descubra seu novo lar no Eusébio!",
@@ -20,7 +22,7 @@ const cards = [
   {
     key: "remax",
     title: "Associado à Re/Max",
-    image: "/src/assets/images.png",
+    image: images,
     alt: "Logo da Re/Max",
     description:
       "Parte da maior rede imobiliária do mundo, garantindo confiança, credibilidade e visibilidade para seus imóveis no mercado local de Eusébio e arredores.",
